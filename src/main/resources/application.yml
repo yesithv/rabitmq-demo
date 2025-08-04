@@ -1,0 +1,16 @@
+spring:
+  application:
+    name=rabitmq-demo
+  rabbitmq:
+    host: 192.168.1.18
+    username: admin
+    password: admin
+    port: 5672
+
+rabbitmqdemo:
+  queue:
+    name: queuenamedemo
+  exchange:
+    name: exchangedemoname
+  routingkey:
+    name: routingkeydemo

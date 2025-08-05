@@ -10,7 +10,9 @@ spring:
 rabbitmqdemo:
   queue:
     name: queuenamedemo
+    json: jsonqueuenamedemo
   exchange:
     name: exchangedemoname
   routingkey:
     name: routingkeydemo
+    json: routingkeyjson
